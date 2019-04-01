@@ -1,0 +1,215 @@
+h3 {
+  color: #24282d;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  color: #333333;
+  line-height: 1.5em;
+}
+
+/* what start */
+.what {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 50px 0px 50px;
+}
+
+.what div {
+  width: 250px;
+}
+
+.what-header {
+  text-align: center;
+  align-content: center;
+  padding: 50px 0px;
+  font-size: 24px;
+}
+
+.what-header-fcontent,
+.what-header-scontent,
+.what-header-tcontent {
+  text-align: center;
+  align-content: center;
+}
+
+/* what ends */
+
+/* why starts first level */
+.why {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 50px 0px 50px;
+}
+
+.why div {
+  width: 250px;
+}
+
+.why-header h1 {
+  text-align: center;
+  align-content: center;
+  padding: 50px 0px;
+  font-size: 32px;
+}
+
+.why-header-fcontent,
+.why-header-scontent,
+.why-header-tcontent {
+  text-align: center;
+  align-content: center;
+}
+/* why ends first level */
+
+/* why starts second level */
+.secwhy {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0px 60px;
+}
+
+.secwhy div {
+  width: 250px;
+}
+
+.why-header-frcontent {
+  text-align: center;
+  align-content: center;
+  margin-right: 50px;
+}
+
+.why-header-fivcontent {
+  text-align: center;
+  align-content: center;
+  margin-left: 50px;
+}
+/* why ends second level */
+
+.who-header {
+  text-align: center;
+  align-content: center;
+}
+
+/* who starts */
+.who-header {
+  padding: 50px 0px;
+}
+
+.who {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 50px 0px 50px;
+}
+
+.who p {
+  text-align: center;
+  align-content: center;
+}
+
+.who-btn {
+  text-align: center;
+  align-content: center;
+}
+/* who ends */
+
+/* where starts */
+.where-header {
+  text-align: center;
+  align-content: center;
+  padding: 50px 0px;
+}
+
+.where-flevel {
+  text-align: center;
+  align-content: center;
+}
+
+.where-seclevel {
+  text-align: center;
+  align-content: center;
+}
+
+.where-ending {
+  text-align: center;
+  align-content: center;
+}
+
+/* call to action starts */
+.callact-pic {
+  text-align: center;
+  align-content: center;
+  background-image: url(images/career.jpg);
+  height: 500px;
+  padding-top: 300px;
+}
+
+.callact-build {
+  text-align: center;
+  align-content: center;
+  background-image: url(images/getstarted.png);
+  height: 300px;
+  padding-top: 150px;
+}
+
+.callact-pic h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 20px 0px 10px;
+}
+
+.callact-pic h3 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 20px 0px 10px;
+  font-style: normal;
+}
+
+.callact-build h1,
+h3 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.footer-information ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-information ul li {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.footer-information h3 {
+  font-size: 20px;
+  color: #24282d;
+}
+
+.footer-information a {
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  margin: 8px 0px 0px;
+}
+
+.footer-information-description-logo ul img {
+  width: 26px;
+}
+
+.footer-information-description-logo ul {
+  margin-left: -8px;
+}
+
+.footer-information-description-logo ul li {
+  display: inline;
+}
+
+.footer-information {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 24px;
+}

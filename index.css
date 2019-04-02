@@ -11,6 +11,81 @@ p {
   line-height: 1.5em;
 }
 
+/* navigation start */
+.header-text {
+  background-color: #006ee5;
+  height: 1000px;
+  margin: 0px;
+}
+/* header */
+.header-text-first h1 {
+  margin: 0px;
+  font-size: 40px;
+  color: #ffffff;
+  top: 250px;
+  padding-right: 700px;
+  padding-left: 100px;
+}
+
+.header-text-first p {
+  color: #ffffff;
+  padding-left: 100px;
+}
+
+.header-btn {
+  padding-left: 100px;
+}
+/* images header */
+.images-simp-header {
+  position: absolute;
+  top: 80px;
+  right: 150px;
+}
+
+.images-uni-header {
+  position: absolute;
+  top: 250px;
+  right: -100px;
+}
+
+.images-alfa-header {
+  position: absolute;
+  top: 400px;
+  right: 400px;
+}
+
+.images-bri-header {
+  position: absolute;
+  top: 500px;
+  right: 150px;
+}
+
+/* navigation main */
+.header-main-style {
+  background-color: #006ee5;
+  margin: 0px;
+}
+
+.header-main-style .navigation-bar-menu {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.header-main-style .navigation-bar-menu a {
+  display: flex;
+}
+.navigation-bar a {
+  right: 220px;
+  top: 10px;
+}
+
+.header-text img {
+  margin-top: 10px;
+  margin-right: 130px;
+}
+
+/* navigation ends */
+
 /* what start */
 .what {
   display: flex;

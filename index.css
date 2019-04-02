@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h3 {
   color: #24282d;
 }
@@ -14,8 +18,9 @@ p {
 /* navigation start */
 .header-text {
   background-color: #006ee5;
-  height: 1000px;
-  margin: 0px;
+  height: 480px;
+  margin-top: 65px;
+  padding: 250px 154px;
 }
 /* header */
 .header-text-first h1 {
@@ -66,12 +71,11 @@ p {
   margin: 0px;
 }
 
-.navigation-bar {
-  text-align: right;
-}
-
 .navigation-bar-menu {
-  padding-top: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 .navigation-bar a {
@@ -88,9 +92,13 @@ p {
 
 #top-header-navigation-menu {
   display: flex;
-  justify-content: space-between;
-  padding: 0 30px;
-  margin-bottom: 20px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #016ee5;
+  z-index: 1;
+  padding-top: 5px;
 }
 
 .header-text img {
@@ -234,6 +242,7 @@ p {
   background-image: url(images/career.jpg);
   height: 500px;
   padding-top: 300px;
+  background-size: cover;
 }
 
 .callact-build {
@@ -242,6 +251,7 @@ p {
   background-image: url(images/getstarted.png);
   height: 300px;
   padding-top: 150px;
+  background-size: cover;
 }
 
 .callact-pic h1 {

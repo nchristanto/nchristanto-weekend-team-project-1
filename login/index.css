@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+}
+
+.login-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.infographics-login {
+  margin: 0px;
+  padding: 55px;
+  background-color: #006ce0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.infographics-login p {
+  margin: 0px;
+}
+
+.infographics-login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.contact-form-username {
+  margin: auto;
+  background-color: #fff;
+  width: cover;
+  padding: 20px 50px;
+}
